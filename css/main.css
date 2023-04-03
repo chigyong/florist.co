@@ -35,6 +35,10 @@ nav .navbar-links li a {
   color: black;
   display: block;
 }
+nav .navbar-links li a:hover {
+  color: red;
+  transition: 0.5s ease-in-out;
+}
 nav .menu {
   position: absolute;
   flex-direction: column;

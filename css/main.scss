@@ -32,6 +32,10 @@ li a {
     color: black;
     display: block;
 }
+li a:hover {
+    color: red;
+    transition: .5s ease-in-out;
+}
 }
 .menu {
     position: absolute;
